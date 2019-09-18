@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: rgba(35, 255, 255, 0.788); 
+}
+.box {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2em;
+	height: 5em;
+}
+
+.row{
+	display: flex;
+	flex-flow: row-reverse;
+}
+
+.row div{
+	flex-grow: 1;
+	font-weight: bold;
+}
+.hluti{
+	font-weight: bold;
+}
+.border{
+	border: 10px;
+}
+.mynd{
+	float: right;
+}
+img{
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+}
+.kassi{
+	float: right;
+	width: 50%;
+	border: 2px solid black
+}
+.kassi2{
+	float: left;
+	width: 50%;
+	border: 2px solid black;
+}
+.big {
+		margin-top: 1000px; 
+		width: 100%;
+	  }
+.border{
+	border: solid black;
+}
+.mam{
+	border: 2px dotted red;
+	align
+}
+.boxmodelid{
+    border: solid red;
+}
+.boxmodelclass{
+    border: solid red;
+    padding: 50px;
+    border-width: 5px;
+}
+.boxmodelclass2{
+    border: solid red;
+    color: red
+}
+.boxmodel{
+    border: solid red;
+    padding: 50px;
+    border-width: 5px;
+}
+.boxmodel2{
+    border: blue dashed;
+    padding: 25px;
+    color: blue;
+    border-width: 5px;
+}
+.graennlisti{
+    display: block; padding: 1em; margin: 1em; border: 3px dashed green;
+}
+.blarlisti{
+    display:inline; padding: 1em; margin: 1em; border: 3px dashed blue;
+}
+.raudurlisti{
+    display: inline-block; padding: 1em; margin: 1em; border: 3px dashed red;
+}
+.kassi_i_float{
+    border: solid yellow;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}

@@ -1,5 +1,4 @@
 # Odysseus101.github.io
-Skóli
 [Verkefni 1](https://odysseus101.github.io/Project_1/project_1.html) 
 
 

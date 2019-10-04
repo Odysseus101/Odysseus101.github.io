@@ -1,0 +1,70 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri vinstri midja haegri haegri "
+    "fotur fotur fotur fotur fotur"; 
+    background-image:url("cloud.png");
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+.header{
+    grid-area: haus;
+    border: 5px solid black;
+    background: rgba(4, 0, 255, 0.2);
+    background-image:url("pic.jifif");
+    background-repeat: repeat;
+    background-size: contain;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-area: valmynd;
+    border: 4px solid black;
+    background: rgba(10, 255, 243, 0.74)
+}
+.left{
+    grid-area: vinstri;
+    border: 3px solid black;
+    background-image:url("gandalf.gif");
+    background-repeat: repeat;
+    background-size: contain;
+}
+.main{
+    grid-area: midja;
+    border: 3px solid black;
+    background: rgba(10, 255, 243, 0.74)
+}
+.right{
+    grid-area: haegri;
+    border: 3px solid black;
+    background-image:url("legolas.gif");
+    background-repeat: repeat;
+    background-size: contain;
+}
+.footer{
+    grid-area: fotur;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background: rgba(10, 255, 243, 0.74)
+}
+.center{
+    text-align: center;
+}
+.center_2{
+    border: 3px solid black;
+    align-items: center;
+}
+.gandalf{
+    background-image:url("gandalf.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.audio{
+    display: none;
+}

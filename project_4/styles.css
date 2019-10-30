@@ -1,0 +1,67 @@
+* { box-sizing: border-box;
+    
+}
+
+body {
+    color: white;
+    background:linear-gradient(lightblue,blue,navy);
+   /*
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri vinstri haegri haegri "
+    "fotur fotur fotur fotur fotur"; 
+    */
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.midju_litur{
+    color: black;
+    background: linear-gradient(red,yellow);
+}
+.einn{
+    background-color: darkblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+                    
+.tveir a:hover {
+    background-color: lightblue;
+}

@@ -1,0 +1,96 @@
+body{
+    color: white;
+    background:linear-gradient(lightblue,blue,navy);
+   /*
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri vinstri haegri haegri "
+    "fotur fotur fotur fotur fotur"; 
+    */
+    padding-bottom; 50px;
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-area: valmynd;
+    background: linear-gradient(rgb(221, 221, 221),rgb(243, 243, 243));
+}
+.pila{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+
+    background:#8A2BE2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    color: yellow;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.midju_litur{
+    color: black;
+    background: linear-gradient(red,yellow);
+}
+.einn{
+    background-color: darkblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+                    
+.tveir a:hover {
+    background-color: lightblue;
+}
+.litur{
+    background: linear-gradient(red, yellow)
+}
+.litur_2{
+    background: linear-gradient(lightblue, blue,darkblue)
+    padding: bot
+}
+.to_right{
+    float: right;
+}
+.to_left{
+    float: left;
+}

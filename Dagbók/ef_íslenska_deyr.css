@@ -1,0 +1,36 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+body{
+    background: linear-gradient(rgb(185, 255, 195),rgb(77, 187, 92));
+    border: solid black;
+    display: grid;
+    grid-template-areas:
+    "valmynd valmynd valmynd valmynd valmynd"
+    "midja midja midja midja midja "; 
+}
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-area: valmynd;
+    background: linear-gradient(rgb(221, 221, 221),rgb(243, 243, 243));
+}
+.main{
+    grid-area: midja;
+    background: linear-gradient(rgb(255,255,255),rgb(233, 233, 233));
+    text-align: center;
+}
+a:link, a:visited {
+    background-color: red;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+                    
+a:hover, a:active {
+    background-color: lightgreen;
+}

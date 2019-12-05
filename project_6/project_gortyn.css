@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "vinstri vinstri vinstri haegri haegri"
+    "midja midja midja midja midja"
+    "fotur fotur fotur fotur fotur"; 
+    
+    background: linear-gradient(rgb(0, 0, 128),rgb(0, 0, 139),rgb(0,0,255));
+}
+.header{
+    grid-area: haus;
+    border: dotted gold;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 1000px;
+    padding-right: 1000px;
+    border: solid 3px black;
+}
+.left{
+    grid-area: vinstri;
+    text-align: center;
+    border: 3px dotted blanchedalmond;
+}
+.right{
+        grid-area: haegri;
+        border: 3px dotted red;
+        text-align: center;
+}
+.main{
+    grid-area: midja;
+    border: 3px dotted black;
+    text-align: center;
+}
+.footer{
+    grid-area: fotur;
+    border: 3px solid gold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+.H1{
+    color: gold;
+}
+.text_template{
+    background: linear-gradient(rgb(236, 236, 236),rgb(241,241,241));
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
